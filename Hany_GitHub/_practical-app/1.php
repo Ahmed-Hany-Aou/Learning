@@ -1,5 +1,5 @@
-<?php include "functions.php" ?>
-<?php include "includes/header.php" ?>
+<?php include "functions.php"; ?>
+<?php include "includes/header.php";?>
 
 	<section class="content">
 
@@ -16,7 +16,7 @@
 
 
 		<?php  
-
+			echo"<h1> hi there from php</h1>";
 
 		/* 
 		   Step 1:  Use the Echo Function to say hello with html h1                  tags embedded inside php.
@@ -27,11 +27,9 @@
 
 
 		   */
-
-
-
-		
-
+		 $name='Ahmed';
+		  $age=23;
+		 echo $name.' his age is '.$age;
 
 		?>
 
@@ -39,4 +37,4 @@
 
 		</article><!--MAIN CONTENT-->
 
-<?php include "includes/footer.php" ?>
+<?php include "includes/footer.php"; ?>

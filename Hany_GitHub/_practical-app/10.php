@@ -1,5 +1,5 @@
-<?php include "functions.php" ?>
-<?php include "includes/header.php" ?>
+<?php include "functions.php"; ?>
+<?php include "includes/header.php";?>
 <section class="content">
 
 	<aside class="col-xs-4">
@@ -22,7 +22,7 @@
 
 		Step 5: Instantiate the class / create object and call it pitbull
 
-		Step 6: Call the method ShowAll
+Step 6: Call the method ShowAll
 
 	
 
@@ -37,4 +37,4 @@
 
 </article><!--MAIN CONTENT-->
 
-<?php include "includes/footer.php" ?>
+<?php include "includes/footer.php"; ?>
