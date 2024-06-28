@@ -17,7 +17,9 @@
 	
 	
 	<?php  
-		echo "hi try 3";
+		echo "hi try 3 i come from git hub";
+		echo "</br>";
+		echo " i came from staging branch";
 //step 1: create a connection
 	/*  Step 1 - Create a database in PHPmyadmin
 
