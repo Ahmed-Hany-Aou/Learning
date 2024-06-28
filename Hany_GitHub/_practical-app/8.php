@@ -16,7 +16,13 @@
 	
 	
 	<?php  
-
+		$pass='Ahmed@1973';
+		$hashFormat="$2y$10$";//Bcrypt Format:
+		$salt="ilovetouseveryhardpass";// should be 22 chracter (because of the format of hash we choosed)
+		$hash_and_salt=$hashFormat.$salt;
+		$pass_sys= crypt($pass,$hash_and_salt);
+	
+		echo $pass_sys;
 	/*  Step 1 -Make a variable with some text as value
 
 		Step 2 - Use crypt() function to encrypt it
