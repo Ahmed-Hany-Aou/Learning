@@ -13,7 +13,24 @@
 
 	
 	<?php  
+			class dogs{
+				var $eyes_color='black';
+				var $nose_size="2cm";
+				var $fur_color='brwon';
+				var $no_of_legs=4;
+			
 
+			function show_All(){
+				echo 'your dog description is: ';
+				echo 'Eyes Color: ' . $this->eyes_color . ', ';
+				echo 'Nose Size: ' . $this->nose_size . ', ';
+				echo 'Fur Color: ' . $this->fur_color . ', ';
+				echo 'Number of Legs: ' . $this->no_of_legs . '.';
+			}
+		}
+
+			$pitbull=new dogs();
+			$pitbull->show_All();
 	/*  Step 1: Use the Make a class called Dog
 
 		Step 2: Set some properties for Dog, Example, eye colors, nose, or fur color
